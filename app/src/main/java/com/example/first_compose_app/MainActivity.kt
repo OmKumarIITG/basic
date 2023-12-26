@@ -121,12 +121,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-//            Vegetables({},{},{})
             Nav()
-//            var state by rememberSaveable{
-//                mutableStateOf(false)
-//            }
-//            RadioButton(selected = state, onClick = { state=!state })
         }
 
     }
